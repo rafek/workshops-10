@@ -277,6 +277,7 @@
      <Compile Include="Assets\HoloToolkit\Utilities\Scripts\Utils.cs" />
      <Compile Include="Assets\HoloToolkit\Utilities\Scripts\VectorRollingStatistics.cs" />
      <Compile Include="Assets\HoloToolkit\Utilities\Scripts\WorldAnchorManager.cs" />
+     <Compile Include="Assets\Scripts\SpatialUnderstandingState.cs" />
      <None Include="Assets\HoloToolkit\Utilities\Shaders\UnlitConfigurable.shader" />
      <None Include="Assets\HoloToolkit\SpatialUnderstanding\Materials\SpatialUnderstandingSurface.shader" />
      <None Include="Assets\HoloToolkit\SpatialMapping\Shaders\SpatialMappingTap.shader" />
