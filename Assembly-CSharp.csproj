@@ -277,6 +277,10 @@
      <Compile Include="Assets\HoloToolkit\Utilities\Scripts\Utils.cs" />
      <Compile Include="Assets\HoloToolkit\Utilities\Scripts\VectorRollingStatistics.cs" />
      <Compile Include="Assets\HoloToolkit\Utilities\Scripts\WorldAnchorManager.cs" />
+     <Compile Include="Assets\Scripts\BoxDrawer.cs" />
+     <Compile Include="Assets\Scripts\ObjectPlacer.cs" />
+     <Compile Include="Assets\Scripts\PlacementQuery.cs" />
+     <Compile Include="Assets\Scripts\PlacementResult.cs" />
      <Compile Include="Assets\Scripts\SpatialUnderstandingState.cs" />
      <None Include="Assets\HoloToolkit\Utilities\Shaders\UnlitConfigurable.shader" />
      <None Include="Assets\HoloToolkit\SpatialUnderstanding\Materials\SpatialUnderstandingSurface.shader" />

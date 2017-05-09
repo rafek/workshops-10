@@ -11,6 +11,8 @@ public class SpatialUnderstandingState : Singleton<SpatialUnderstandingState>, I
     public float MinHorizAreaForComplete = 25.0f;
     public float MinWallAreaForComplete = 10.0f;
 
+    public ObjectPlacer Placer;
+
     private uint trackedHandsCount = 0;
 
     public TextMesh DebugDisplay;
@@ -198,6 +200,8 @@ public class SpatialUnderstandingState : Singleton<SpatialUnderstandingState>, I
         if (!_triggered && SpatialUnderstanding.Instance.ScanState == SpatialUnderstanding.ScanStates.Done)
         {
             _triggered = true;
+
+            Placer.CreateScene();
         }
     }
 
